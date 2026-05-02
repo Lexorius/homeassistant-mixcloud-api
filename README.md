@@ -6,7 +6,7 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
 [![GitHub Release](https://img.shields.io/github/release/Lexorius/homeassistant-mixcloud-api.svg)](https://github.com/Lexorius/homeassistant-mixcloud-api/releases)
 [![GitHub Activity](https://img.shields.io/github/commit-activity/y/Lexorius/homeassistant-mixcloud-api.svg)](https://github.com/Lexorius/homeassistant-mixcloud-api/commits/main)
-[![Version](https://img.shields.io/badge/version-1.1.1-blue)](https://github.com/Lexorius/homeassistant-mixcloud-api)
+[![Version](https://img.shields.io/badge/version-1.1.2-blue)](https://github.com/Lexorius/homeassistant-mixcloud-api)
 
 This custom component integrates [Mixcloud](https://www.mixcloud.com/) user data into [Home Assistant](https://www.home-assistant.io/) via HACS. It provides sensors for follower counts, uploads, and profile information for any public Mixcloud user.
 
@@ -111,7 +111,7 @@ cover_pictures:
 
 ## Version
 
-**1.1.1**
+**1.1.2**
 
 ---
 
