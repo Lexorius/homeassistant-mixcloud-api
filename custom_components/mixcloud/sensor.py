@@ -1,11 +1,12 @@
+import logging
+
 from homeassistant.components.sensor import SensorEntity
-from homeassistant.helpers.update_coordinator import CoordinatorEntity
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
+from homeassistant.helpers.update_coordinator import CoordinatorEntity
 
 from .const import DOMAIN
 
-import logging
 _LOGGER = logging.getLogger(__name__)
 
 COUNT_KEYS = [

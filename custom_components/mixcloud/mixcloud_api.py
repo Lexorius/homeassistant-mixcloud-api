@@ -1,5 +1,6 @@
 import aiohttp
 
+
 class MixcloudError(Exception):
     """Custom exception for Mixcloud API errors."""
 

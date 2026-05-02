@@ -1,7 +1,16 @@
 # Mixcloud Home Assistant Integration
 
+[![hassfest](https://github.com/Lexorius/homeassistant-mixcloud-api/actions/workflows/hassfest.yml/badge.svg)](https://github.com/Lexorius/homeassistant-mixcloud-api/actions/workflows/hassfest.yml)
+[![HACS validation](https://github.com/Lexorius/homeassistant-mixcloud-api/actions/workflows/hacs.yml/badge.svg)](https://github.com/Lexorius/homeassistant-mixcloud-api/actions/workflows/hacs.yml)
+[![Python checks](https://github.com/Lexorius/homeassistant-mixcloud-api/actions/workflows/python-checks.yml/badge.svg)](https://github.com/Lexorius/homeassistant-mixcloud-api/actions/workflows/python-checks.yml)
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
+[![GitHub Release](https://img.shields.io/github/release/Lexorius/homeassistant-mixcloud-api.svg)](https://github.com/Lexorius/homeassistant-mixcloud-api/releases)
+[![GitHub Activity](https://img.shields.io/github/commit-activity/y/Lexorius/homeassistant-mixcloud-api.svg)](https://github.com/Lexorius/homeassistant-mixcloud-api/commits/main)
+[![Version](https://img.shields.io/badge/version-1.1.0-blue)](https://github.com/Lexorius/homeassistant-mixcloud-api)
 
 This custom component integrates [Mixcloud](https://www.mixcloud.com/) user data into [Home Assistant](https://www.home-assistant.io/) via HACS. It provides sensors for follower counts, uploads, and profile information for any public Mixcloud user.
+
+Each release is automatically validated by GitHub Actions: **hassfest** (Home Assistant manifest checks), **HACS validation**, and a **Python checks** workflow that runs `compileall`, `ruff`, the local manifest order check (`scripts/check-manifest.sh`), JSON/YAML lint, and a CHANGELOG-version-consistency check. The badges above reflect the current state of the `main` branch.
 
 ---
 

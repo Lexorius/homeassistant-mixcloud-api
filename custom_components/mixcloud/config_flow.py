@@ -1,9 +1,10 @@
-from homeassistant import config_entries
-from homeassistant.core import callback
-import voluptuous as vol
 import re
 
+import voluptuous as vol
+from homeassistant import config_entries
+
 from .const import DOMAIN
+
 
 def extract_username(value: str) -> str | None:
     # Extrahiere Username aus URL oder gib Username direkt zurück

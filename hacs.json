@@ -1,9 +1,7 @@
 {
   "name": "Mixcloud Integration",
   "content_in_root": false,
-  "domain": "mixcloud",
   "homeassistant": "2025.5.0",
-  "iot_class": "cloud_polling",
   "country": "de",
   "render_readme": true,
   "filename": "custom_components/mixcloud/manifest.json"
