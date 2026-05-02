@@ -14,6 +14,22 @@ This custom component integrates [Mixcloud](https://www.mixcloud.com/) user data
 
 ---
 
+## Upgrading from 1.0.x — Breaking change
+
+Starting with **1.1.0**, the integration's domain has been renamed from `hacs-mixcloud-api` to **`mixcloud`**.
+
+This change was necessary because Home Assistant requires the manifest `domain` to match the integration's directory name (`custom_components/mixcloud/`) and to consist of `[a-z0-9_]` only — the previous value contained a hyphen and did not match the folder name, so hassfest rejected the integration.
+
+**What you need to do after upgrading:**
+
+1. Remove the existing Mixcloud integration entry under **Settings → Devices & Services**.
+2. Restart Home Assistant.
+3. Re-add the integration; existing config entries from 1.0.x cannot be migrated automatically because they were registered under the old domain string.
+
+Sensor entity IDs stay the same (`sensor.mixcloud_<username>_*`) — only the underlying integration domain changed.
+
+---
+
 ## Installation
 
 1. **Via HACS (recommended):**
@@ -86,7 +102,7 @@ cover_pictures:
 
 ## Version
 
-**1.0.0**
+**1.1.0**
 
 ---
 
